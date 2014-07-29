@@ -50,12 +50,6 @@ int readInput(char* buffer, int maxBytesToRead)
   if (buffer[0] == 0)
   {
     printf("yyInput: 0!!!!!!!!!!!!!!!\n");
-//	end=clock();
-//	d=(double)(end-start)/CLOCKS_PER_SEC;
-//	printf("d:%f",d);
-//	int len=sizeof(d);
-//	fwrite(&d,len,len,fp);
-//	fclose(fp);
     return 0;
   }
   else
